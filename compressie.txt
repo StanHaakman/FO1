@@ -1,7 +1,7 @@
- zo lang laat gokken tot dat ze het goed hebben.
+zo lang laat gokken tot dat ze het goed hebben.
 
 Opdracht 8 - Compressie
-    Schrijf een compress-programma, dat uit een gegeven bestand een nieuwe bestand maakt, waarbij van iedere regel alle spaties en tabs aan het begin van de regel zijn verwijderd.
+Schrijf een compress-programma, dat uit een gegeven bestand een nieuwe bestand maakt, waarbij van iedere regel alle spaties en tabs aan het begin van de regel zijn verwijderd.
 Verder zijn alle lege regels verwijderd (een lege regel bevat ’\n’ , eventueel voorafgegaan door spaties en tabs(‘\t’)).
 
 
@@ -12,7 +12,7 @@ Schrijf een functie met twee parameters. De eerste parameter, ch, is een charact
 
 
 worden. Als n > 0 is dan worden de bitjes naar links geschoven. Als n < 0 is dan worden de bitjes naar rechts geschoven. De bitjes die wegvallen worden aan de andere kant van
-    de byte weer teruggeplaatst.
+de byte weer teruggeplaatst.
 Voorbeeld 1: ch met bitwaarde 1011000 en n is gelijk aan 3 resulteert in een ch met de bitwaarde: 1000101.
 Voorbeeld 2: ch met bitwaarde 1011100 en n is gelijk aan -4 resulteert in een ch met de bitwaarde: 1100101.
 

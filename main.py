@@ -234,3 +234,20 @@ def fibonacci(number, last=0, second_to_last=1):
 
 
 print(fibonacci(9))
+
+
+# Opdracht 12 FizzBuzz
+
+def fizzbuzz(length):
+    for i in range(1, length):
+        if i % 3 == 0 and i % 5 == 0:
+            print('FizzBuzz')
+        elif i % 3 == 0:
+            print('Fizz')
+        elif i % 5 == 0:
+            print('Buzz')
+        else:
+            print(i)
+
+# fizzbuzz(100)
+
